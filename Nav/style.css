@@ -12,10 +12,14 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    color: white;
+}
+
+img {
+    display: none;
 }
 
 ul {
-    color: white;
     display: flex;
     list-style-type: none;
     gap: 1em;
@@ -60,4 +64,19 @@ ul {
 
 .disabled-button {
     opacity: .5;
+}
+
+
+@media screen and (max-width: 768px) {
+    img {
+        display: block;
+    }
+
+    ul {
+        display: none;
+    }
+    
+    .search {
+        display: none;
+    }
 }
