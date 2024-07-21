@@ -2,6 +2,7 @@ import { HelloWorld } from "./HelloWorld";
 import { Welcome } from "./Welcome";
 import { AlertClock } from "./AlertClock";
 import { Counter } from "./Counter";
+import { Clock } from "./Clock";
 
 export function App() {
     return (
@@ -13,6 +14,8 @@ export function App() {
             <AlertClock/>
             <hr />
             <Counter initialValue={20} incrementAmount={2}/>
+            <hr />
+            <Clock/>
         </div>
     )
 }
