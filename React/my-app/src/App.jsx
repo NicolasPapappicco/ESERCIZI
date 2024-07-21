@@ -3,6 +3,7 @@ import { Welcome } from "./Welcome";
 import { AlertClock } from "./AlertClock";
 import { Counter } from "./Counter";
 import { Clock } from "./Clock";
+import { MouseClicker } from "./MouseClicker";
 
 export function App() {
     return (
@@ -16,6 +17,8 @@ export function App() {
             <Counter initialValue={20} incrementAmount={2}/>
             <hr />
             <Clock/>
+            <hr />
+            <MouseClicker/>
         </div>
     )
 }
